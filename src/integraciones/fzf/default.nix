@@ -1,5 +1,4 @@
-let mestizo = import ../../paleta.nix;
-in ''
+{ mestizo }: ''
   --preview-window=70%
   --color=fg:${mestizo.rosa},fg+:${mestizo.tope},bg:${mestizo.base},bg+:${mestizo.base2}
   --color=hl:${mestizo.rosa},hl+:${mestizo.cian},info:${mestizo.verde},marker:${mestizo.magenta}

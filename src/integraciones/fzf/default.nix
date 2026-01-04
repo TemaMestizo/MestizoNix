@@ -1,11 +1,11 @@
-{ mestizo }: ''
-  --preview-window=70%
-  --color=fg:${mestizo.rosa},fg+:${mestizo.tope},bg:${mestizo.base},bg+:${mestizo.base2}
-  --color=hl:${mestizo.rosa},hl+:${mestizo.cian},info:${mestizo.verde},marker:${mestizo.magenta}
-  --color=prompt:${mestizo.cian},spinner:${mestizo.magenta},pointer:${mestizo.rojo},header:${mestizo.cian}
-  --color=gutter:${mestizo.base1},border:${mestizo.base},scrollbar:${mestizo.base1},preview-fg:${mestizo.tope}
-  --color=preview-bg:${mestizo.base1},preview-border:${mestizo.base1},preview-scrollbar:${mestizo.base3},label:${mestizo.tope}
-  --color=query:${mestizo.tope}
+{ mestizo }: # sh
+with mestizo; ''
+  --color=fg:${tope},fg+:${tope},bg:${base},bg+:${base3}
+  --color=hl:${amarillo},hl+:${amarillo},info:${verde},marker:${magenta}
+  --color=prompt:${cian},spinner:${magenta},pointer:${rojo},header:${cian}
+  --color=gutter:${base1},border:${base},scrollbar:${base3},preview-fg:${tope}
+  --color=preview-bg:${base1},preview-border:${base1},preview-scrollbar:${tope_3},label:${tope}
+  --color=query:${tope}
   --border="rounded" --border-label="" --preview-window="border-rounded" --prompt="> "
   --marker=">" --pointer="◆" --separator="─" --scrollbar="│"
   --layout="reverse" --info="right"

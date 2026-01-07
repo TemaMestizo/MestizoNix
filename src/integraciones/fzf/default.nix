@@ -1,4 +1,4 @@
-{ mestizo }:
+{ mestizo, ... }:
 {
   nombre = "fzf";
   configuracion = with mestizo; /* fish */ ''

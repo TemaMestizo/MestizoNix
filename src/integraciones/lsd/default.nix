@@ -1,4 +1,4 @@
-{ mestizo }:
+{ mestizo, ... }:
 {
   nombre = "lsd";
   configuracion = {

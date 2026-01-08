@@ -4,6 +4,7 @@ let
 in
 with mestizo;
 {
+  # TAREA: Agregar configuración para el prompt por defecto de fish
   normal = f tope;
   command = f azul;
   keyword = f magenta;

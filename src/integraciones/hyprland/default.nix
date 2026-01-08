@@ -18,13 +18,13 @@
       group = {
         "col.border_active" = "rgb(${f rojo})";
         "col.border_inactive" = "rgb(${f naranja})";
-        "col.border_locked_active" = "rgb(${f rojo})";
-        "col.border_locked_inactive" = "rgb(${f naranja})";
+        "col.border_locked_active" = "rgb(${f cian})";
+        "col.border_locked_inactive" = "rgb(${f azul})";
         groupbar = {
           "col.active" = "rgb(${f rojo})";
           "col.inactive" = "rgb(${f naranja})";
-          "col.locked_active" = "rgb(${f rojo})";
-          "col.locked_inactive" = "rgb(${f naranja})";
+          "col.locked_active" = "rgb(${f cian})";
+          "col.locked_inactive" = "rgb(${f celeste})";
           text_color = "rgb(${f base_1})";
         };
       };

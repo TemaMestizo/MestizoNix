@@ -6,15 +6,15 @@ with mestizo;
 {
   progress = f magenta;
   background = "";
-  prefix = f naranja;
-  completion = "${f tope_2} --italic";
-  description = f tope_1;
+  prefix = f amarillo;
+  completion = f tope_1;
+  description = f tope_2;
   selected_background = "--background=${f azulBase}";
-  selected_prefix = f naranja;
-  selected_completion = "${f tope_2} --italic";
-  selected_description = f tope_1;
+  selected_prefix = f amarillo;
+  selected_completion = f tope_1;
+  selected_description = f tope_2;
   secondary_background = "";
-  secondary_prefix = f naranja;
-  secondary_completion = "${f tope_2} --italic";
-  secondary_description = f tope_1;
+  secondary_prefix = f amarillo;
+  secondary_completion = f tope_1;
+  secondary_description = f tope_2;
 }

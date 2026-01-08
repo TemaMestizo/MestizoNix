@@ -5,13 +5,13 @@ in
 with mestizo;
 {
   normal = f tope;
-  command = f cian;
+  command = f azul;
   keyword = f magenta;
   quote = f verde;
   redirection = f lima;
   end = f naranja;
   error = "${f rojo} --bold";
-  param = f rosa;
+  param = f tope;
   comment = f tope_2;
   selection = "--background ${f magenta}";
   search_match = "--background ${f amarillo}";

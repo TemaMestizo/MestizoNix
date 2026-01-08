@@ -25,7 +25,7 @@
           "col.inactive" = "rgb(${f tope_3})";
           "col.locked_active" = "rgb(${f base_2})";
           "col.locked_inactive" = "rgb(${f base_3})";
-          text_color = "rgb(${f tope})";
+          text_color = "rgb(${f tope1})";
         };
       };
     };

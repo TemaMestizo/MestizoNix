@@ -4,6 +4,7 @@ let
   util = import ../util.nix;
 
   integraciones = map (ruta: import ruta { inherit mestizo util lib; }) [
+    ./kitty
     ./hyprland
     ./fzf
     ./lsd

@@ -12,20 +12,20 @@
     with mestizo;
     {
       general = {
-        "col.active_border" = "rgb(${f tope_2})";
-        "col.inactive_border" = "rgb(${f tope_3})";
+        "col.active_border" = "rgb(${f rojo})";
+        "col.inactive_border" = "rgb(${f naranja})";
       };
       group = {
-        "col.border_active" = "rgb(${f tope_2})";
-        "col.border_inactive" = "rgb(${f tope_3})";
-        "col.border_locked_active" = "rgb(${f base_2})";
-        "col.border_locked_inactive" = "rgb(${f base_3})";
+        "col.border_active" = "rgb(${f rojo})";
+        "col.border_inactive" = "rgb(${f naranja})";
+        "col.border_locked_active" = "rgb(${f rojo})";
+        "col.border_locked_inactive" = "rgb(${f naranja})";
         groupbar = {
-          "col.active" = "rgb(${f tope_2})";
-          "col.inactive" = "rgb(${f tope_3})";
-          "col.locked_active" = "rgb(${f base_2})";
-          "col.locked_inactive" = "rgb(${f base_3})";
-          text_color = "rgb(${f tope1})";
+          "col.active" = "rgb(${f rojo})";
+          "col.inactive" = "rgb(${f naranja})";
+          "col.locked_active" = "rgb(${f rojo})";
+          "col.locked_inactive" = "rgb(${f naranja})";
+          text_color = "rgb(${f base_1})";
         };
       };
     };

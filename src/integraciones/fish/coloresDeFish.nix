@@ -5,7 +5,7 @@ in
 with mestizo;
 {
   normal = f tope;
-  command = f azul;
+  command = f cian;
   keyword = f magenta;
   quote = f verde;
   redirection = f lima;
@@ -17,10 +17,10 @@ with mestizo;
   search_match = "--background ${f amarillo}";
   operator = f rojo;
   escape = f fucsia;
-  autosuggestion = f verde;
+  autosuggestion = "${f tope_2} --italic";
   cancel = "${f rojo} --reverse";
   option = f cian;
   history_current = "--bold";
   status = f naranja;
-  valid_path = "--underline";
+  valid_path = "${f rojo} --underline";
 }

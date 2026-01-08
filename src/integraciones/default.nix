@@ -1,7 +1,8 @@
 { lib }:
 let
-  mestizo = import ../paleta.nix;
+  mestizo = import ../paletaExtendida.nix;
   util = import ../util.nix;
+
   integraciones = map (ruta: import ruta { inherit mestizo util lib; }) [
     ./fzf
     ./lsd

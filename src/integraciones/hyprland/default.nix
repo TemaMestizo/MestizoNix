@@ -12,8 +12,8 @@
     with mestizo;
     {
       general = {
-        "col.active_border" = "rgb(${f rojo})";
-        "col.inactive_border" = "rgb(${f naranja})";
+        "col.active_border" = "rgb(${f tope_3})";
+        "col.inactive_border" = "rgb(${f base3})";
       };
       group = {
         "col.border_active" = "rgb(${f rojo})";

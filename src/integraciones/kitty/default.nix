@@ -6,7 +6,7 @@
 
     # Colores básicos
     background = base;
-    foreground = tope;
+    foreground = tope_1;
     selection_background = base3;
     selection_foreground = tope;
 
